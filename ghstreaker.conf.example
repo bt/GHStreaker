@@ -1,2 +1,13 @@
 # Set the path to the local repository below
 GH_local_git_folder="/path/to/repo"
+
+# README template text
+GH_template_text="
+# GHStreaker Repository
+
+This repository has automated commits set up.
+
+The last commit time is $(date + "%d/%m/%y %r").
+
+For more information, visit https://github.com/bt/GHStreaker
+"
