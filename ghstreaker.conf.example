@@ -1,0 +1,2 @@
+# Set the path to the local repository below
+GH_local_git_folder="/path/to/repo"
