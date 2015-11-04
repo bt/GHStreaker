@@ -16,7 +16,7 @@ I do not recommend using this script just to impress employers; Git commits with
 1. Clone this repository.
 2. Create a new repository in GitHub; call it whatever you'd like. This will be the repository that will be automatically commited to.
 3. Clone the new repository to a local folder.
-4. Update the ghstreaker.conf file to contain your the local folder from step 3.
+4. Rename the ghstreaker.conf.example file to ghstreaker.conf and edit it to contain the local folder from step 3.
 5. Run the script to ensure it works; it should automatically generate a README.md file with some text, then push it to GitHub.
 6. Set up a cronjob to run it on a daily basis at whatever time suits you. An example cronjob line could be:
 `` TODO ``
