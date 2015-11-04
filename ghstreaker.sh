@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Change directory to the script's directory
+cd ${0%/*}
+
 # Check that we have a configuration file
 if [ ! -f ghstreaker.conf ]; then
 	printf "You don't have a configuration set yet!\n"
