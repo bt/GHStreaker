@@ -27,11 +27,13 @@ if [ -f README.md ]; then
 fi
 
 # Create a new README.md file
-IFS="\n"
-for line in $GH_template_text
-do
-	echo $line >> README.md
-done
+echo "# GHStreaker Repository" >> README.md
+echo "" >> README.md
+echo "This repository has automated commits set up." >> README.md
+echo "" >> README.md
+echo "The last commit time was $(date "+%d/%m/%y %r")." >> README.md
+echo "" >> README.md
+echo "For more information, visit https://github.com/bt/GHStreaker" >> README.md
 
 # Add all files
 git add .
